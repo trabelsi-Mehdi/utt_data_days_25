@@ -1,0 +1,3 @@
+@echo off
+echo Ouverture d'un nouveau terminal avec l'environnement activé...
+start cmd.exe /k "myenv\Scripts\activate && echo Environnement activé!"
